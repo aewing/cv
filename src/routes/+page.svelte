@@ -133,7 +133,7 @@
 		<Heading tag="h2">Work History</Heading>
 		<Timeline order="vertical" class="text-left mx-4">
 			<!-- start -->
-			{#each Object.values(workHistory) as importer}
+			{#each Object.values(workHistory).reverse() as importer}
 				{#await importer()}
 					<Skeleton size="xl" class="my-4" />
 				{:then job}
@@ -147,7 +147,7 @@
 	<div class="flex-1 w-full flex flex-col gap-4 p-4" id="references">
 		<Heading tag="h2">References</Heading>
 		<div class="flex flex-col gap-8">
-			{#each Object.values(references) as importer}
+			{#each Object.values(references).reverse() as importer}
 				{#await importer()}
 					<Reference />
 				{:then reference}
