@@ -1,0 +1,7 @@
+import{s as u,f as c,a as g,u as w,g as l,d as r,c as y,X as _,j as s,v as h,i as p,z as m}from"./scheduler.ac621421.js";import{S as v,i as b}from"./index.df700623.js";function k(f){let e,n,i,t,d=`<p>“Drew is a very talented and brilliant software architect. He has the mind to craft
+scalable, performant, and fault-tolerant applications. He has led a few of our software
+initiatives since I have worked with him and has done a great job to execute on the
+projects, from design to implementation, all the way through to completion. Drew knows
+how to lead by example and inspires the teams he works on by paving the way on hard
+tasks that can paralyze others. I would greatly recommend him to any company who needs a
+productive and efficient leader.”</p>`;return{c(){e=c("meta"),n=c("meta"),i=g(),t=c("div"),t.innerHTML=d,this.h()},l(a){const o=w("svelte-klg9sn",document.head);e=l(o,"META",{property:!0,content:!0}),n=l(o,"META",{name:!0,content:!0}),o.forEach(r),i=y(a),t=l(a,"DIV",{class:!0,"data-svelte-h":!0}),_(t)!=="svelte-2rr06r"&&(t.innerHTML=d),this.h()},h(){s(e,"property","og:image"),s(e,"content","/references/taco.jpeg"),s(n,"name","twitter:card"),s(n,"content","summary_large_image"),s(t,"class","markdown-body")},m(a,o){h(document.head,e),h(document.head,n),p(a,i,o),p(a,t,o)},p:m,i:m,o:m,d(a){a&&(r(i),r(t)),r(e),r(n)}}}const T={name:"Garrett Tacoronte",role:"VP of Engineering",company:"Basic.Space",image:"/references/taco.jpeg"};class E extends v{constructor(e){super(),b(this,e,null,k,u,{})}}export{E as default,T as frontmatter};

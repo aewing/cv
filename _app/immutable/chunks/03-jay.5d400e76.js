@@ -1,4 +1,4 @@
-import{s as f,f as c,a as g,a9 as v,g as m,d as i,c as y,W as _,j as s,x as l,i as p,y as d}from"./scheduler.adbe0268.js";import{S as j,i as b}from"./index.98c81177.js";function w(u){let e,n,o,t,h=`<p>“Drew is a talented engineer and astute problem solver. I have had the privilege of
+import{s as f,f as c,a as g,u as v,g as m,d as i,c as y,X as _,j as s,v as l,i as p,z as d}from"./scheduler.ac621421.js";import{S as j,i as b}from"./index.df700623.js";function w(u){let e,n,o,t,h=`<p>“Drew is a talented engineer and astute problem solver. I have had the privilege of
 working with him on several high-profile, high-risk, and high-reward projects and have
 been more than impressed in every instance. Skilled in communication and with an
 established track record of delivering results; I cannot recommend him high enough in

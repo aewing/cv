@@ -1,7 +1,0 @@
-import{s as f,f as l,a as y,a9 as v,g as c,d as o,c as g,W as _,j as s,x as p,i as h,y as d}from"./scheduler.adbe0268.js";import{S as w,i as b}from"./index.98c81177.js";function k(u){let e,n,i,t,m=`<p>“I’ve worked alongside Drew for almost a year and have seen him excel at moving the
-product forward with his unique problem solving skills and passionate coding ability.
-His knowledge of front-end javascript frameworks, web standards, ADA compliance, and
-back-end technologies have helped us to increase our velocity and solve more problems in
-less time. Drew’s ideas and work will be beneficial for us long into the future, I
-personally have learned a lot from him and have only optimistic predictions for his
-career trajectory.”</p>`;return{c(){e=l("meta"),n=l("meta"),i=y(),t=l("div"),t.innerHTML=m,this.h()},l(a){const r=v("svelte-veh4xe",document.head);e=c(r,"META",{property:!0,content:!0}),n=c(r,"META",{name:!0,content:!0}),r.forEach(o),i=g(a),t=c(a,"DIV",{class:!0,"data-svelte-h":!0}),_(t)!=="svelte-8k04so"&&(t.innerHTML=m),this.h()},h(){s(e,"property","og:image"),s(e,"content","/references/ryan.jpeg"),s(n,"name","twitter:card"),s(n,"content","summary_large_image"),s(t,"class","markdown-body")},m(a,r){p(document.head,e),p(document.head,n),h(a,i,r),h(a,t,r)},p:d,i:d,o:d,d(a){a&&(o(i),o(t)),o(e),o(n)}}}const j={name:"Ryan Allen",role:"Designer",company:"RyanAllen.com",image:"/references/ryan.jpeg"};class D extends w{constructor(e){super(),b(this,e,null,k,f,{})}}export{D as default,j as frontmatter};
