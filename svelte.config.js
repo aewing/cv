@@ -23,7 +23,7 @@ const config = {
 		alias: {
 			$data: './src/data'
 		},
-		paths: process.env.NODE_ENV === 'production' ? { base: '/cv', assets: '/cv' } : { base: '' }
+		paths: process.env.NODE_ENV === 'production' ? { base: '/cv' } : { base: '' }
 	}
 };
 
