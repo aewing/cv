@@ -15,6 +15,7 @@
 
 	import * as intro from '$data/cv/intro.md';
 	import WorkHistoryItem from './WorkHistoryItem.svelte';
+	import { base } from '$app/paths';
 	const workHistory = import.meta.glob('../data/cv/work-history/*.md');
 	const references = import.meta.glob('../data/cv/references/*.md');
 
@@ -51,7 +52,7 @@
 </script>
 
 <Navbar class="hidden-print">
-	<NavBrand href="/">
+	<NavBrand href="{base}/">
 		<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">_drew</span>
 	</NavBrand>
 	<section class="flex flex-row gap-2 items-center">
