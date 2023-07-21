@@ -17,9 +17,6 @@ const config = {
 			fallback: null,
 			precompress: false
 		}),
-		prerender: {
-			default: true
-		},
 		alias: {
 			$data: './src/data'
 		},
