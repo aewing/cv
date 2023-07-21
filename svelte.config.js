@@ -20,7 +20,6 @@ const config = {
 		prerender: {
 			default: true
 		},
-		trailingSlash: 'always',
 		alias: {
 			$data: './src/data'
 		},
